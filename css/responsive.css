@@ -1,0 +1,169 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    position: relative;
+  }
+  .menu .navbar-default .navbar-nav > li > a {
+    padding: 5px 7px;
+  }
+  #banner {
+    padding: 40px 10px;
+  }
+  #banner h1 {
+    font-size: 40px;
+  }
+  #banner .block img {
+    padding-top: 80px;
+  }
+  #banner .block > p {
+    margin-bottom: 20px;
+  }
+  #banner .first-service,
+  #banner .third-service {
+    margin-top: 20px;
+  }
+  #banner .service-item {
+    padding: 5px 15px;
+  }
+
+  #testimonials .title,
+  #playlists .title,
+  #service .title {
+    margin-bottom: 10px;
+  }
+  #testimonials .test-video {
+    margin-bottom: 10px;
+  }
+  #service .block {
+    margin-bottom: 40px;
+  }
+  #service .service-wrapper {
+    padding: 80px 0;
+  }
+  #feature {
+    padding: 30px 0;
+  }
+  #feature .title {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  #feature .block img {
+    padding-top: 0px;
+  }
+  #feature .feature-item {
+    margin-top: 10px;
+  }
+  #utility .block h2 {
+    padding-top: 15px;
+  }
+  #utility-2 .block {
+    padding-top: 0;
+  }
+  #booking .form-inline .form-group input {
+    width: 100%;
+  }
+  footer .footer-logo {
+    display: inline-block;
+  }
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+  header {
+    position: relative;
+  }
+  nav .container-fluid {
+    display: block;
+  }
+  .footer-logo img {
+    width: 100px;
+  }
+  #booking .form-inline .form-group input {
+    width: 290px;
+  }
+  #feature {
+    padding: 30px 0;
+  }
+  #banner {
+    padding: 40px 0;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  .button-container button  {
+    font-size: 15px;
+  }
+  #introduction-video iframe,
+  #testimonials iframe,
+  #playlists iframe {
+    width: 90vw;
+  }
+  #banner .first-service,
+  #banner .third-service {
+    margin-top: 20px;
+  }
+  #banner .service-item {
+    padding: 5px 15px;
+  }
+  #testimonials .title,
+  #playlists .title,
+  #service .title {
+    margin-bottom: 10px;
+  }
+  #testimonials .test-video {
+    margin-bottom: 10px;
+  }
+  #service .service-wrapper {
+    padding: 60px 0;
+  }
+  #service .block {
+    margin-bottom: 20px;
+  }
+  #feature .feature-item {
+    margin-top: 10px;
+  }
+  #playlists iframe {
+    width: 350px;
+    height: 370px;
+  }
+  #utility .block h2,
+  #utility-2 .block h2,
+  #feature .title {
+    text-align: center;
+  }
+  #booking .form-inline .form-group input {
+    width: 100%;
+  }
+  footer.fadeInUp {
+    animation: none;
+    visibility: visible !important;
+  }
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
